@@ -1,5 +1,5 @@
 {
-  "name": "exclusionesvendedor",
+  "name": "GuiaInformativaMeli",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jhonda19/ExclusionesVendedor.git"
+    "url": "git+https://github.com/jhonda19/GuiaInformativaMeli.git"
   },
   "author": "john.ospina",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jhonda19/ExclusionesVendedor/issues"
+    "url": "https://github.com/jhonda19/GuiaInformativaMeli/issues"
   },
-  "homepage": "https://github.com/jhonda19/ExclusionesVendedor#readme",
+  "homepage": "https://github.com/jhonda19/GuiaInformativaMeli#readme",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.14.0",
     "@fullcalendar/core": "^5.4.0",
