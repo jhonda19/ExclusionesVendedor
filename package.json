@@ -1,0 +1,19 @@
+{
+  "name": "exclusionesvendedor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhonda19/ExclusionesVendedor.git"
+  },
+  "author": "john.ospina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhonda19/ExclusionesVendedor/issues"
+  },
+  "homepage": "https://github.com/jhonda19/ExclusionesVendedor#readme"
+}
