@@ -199,10 +199,8 @@ export class userApp {
                 title: 'modulo',
                 align: 'center',
                 formatter: (value, row, index) => {
-                    return row.modulo === 'Roster' ? '<span class="badge textNormal badge-info">' + row.modulo + '</span>'
-                        : row.modulo === 'Payroll' ? '<span class="badge textNormal badge-warning text-dark">' + row.modulo + '</span>'
-                            : row.modulo === 'UGA' ? '<span class="badge textNormal badge-success">' + row.modulo + '</span>'
-                                : '<span class=" badge textNormal badge-danger">' + row.modulo + '</span>'
+                    return row.modulo === 'Guía Informativa' ? '<span class="badge textNormal badge-info">' + row.modulo + '</span>'
+                                            : '<span class=" badge textNormal badge-danger">' + row.modulo + '</span>'
                 }
             }, {
                 field: 'nombreFront',

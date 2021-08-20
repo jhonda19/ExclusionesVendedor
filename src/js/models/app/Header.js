@@ -171,7 +171,7 @@ export function elementsMain() {
   async function main() {
     const linksAdmin = (`${await find('usuarioApp', 'Usuario App')}
                         <hr class="divider">
-                        ${await find('cargueGuiaInformativa', 'Cargue de Datos')}
+                        ${await find('cargueDatos', 'Cargue de Datos')}
                         `
                       );
 

@@ -6,7 +6,7 @@ class ModelData {
 
     static public function userLogin($data) {
         $query = "EXEC dbo.app_login '".$data['iniUser']."', null, null, 1";
-        $stmt = Connection::connectSQLWFM() -> prepare($query);
+        $stmt = Connection::connectGlobalMeli() -> prepare($query);
         $stmt->execute();
         return $stmt->fetchAll();
         $stmt->close;
@@ -48,7 +48,7 @@ class ModelData {
     
     static public function restorePass($data) {
         $query = "EXEC dbo.app_loginPass '".$data['Inrid']."', '".$data['Inriu']."', '".$data['Inric']."', '".$data['Inpass']."'";
-        $stmt = Connection::connectSQLWFM() -> prepare($query);
+        $stmt = Connection::connectGlobalMeli() -> prepare($query);
         $stmt->execute();
         return $stmt->fetchAll();
         $stmt->close;
@@ -103,7 +103,7 @@ class ModelData {
 
     static public function listViewsApp($cedula) {
         $query = "EXEC dbo.app_login '".$cedula."', null, null, 2";
-        $stmt = Connection::connectSQLWFM() -> prepare($query);
+        $stmt = Connection::connectGlobalMeli() -> prepare($query);
         $stmt->execute();
         return $stmt->fetchAll();
         $stmt->close;
@@ -112,7 +112,7 @@ class ModelData {
 
     static public function saveUser($data) {
         $query = "EXEC dbo.app_login '".$data['savUsId']."', '".$data['savUsPer']."','".$data['savUsApp']."', 3";
-        $stmt = Connection::connectSQLWFM() -> prepare($query);
+        $stmt = Connection::connectGlobalMeli() -> prepare($query);
         $stmt->execute();
         return $stmt->fetchAll();
         $stmt->close;

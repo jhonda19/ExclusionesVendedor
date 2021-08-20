@@ -1,7 +1,7 @@
 const path = require('path');
 const entryPoints = {
   custom: './src/js/index.js',
-  roster: './src/js/roster.js',
+  upload: './src/js/upload.js',
 } 
 
 module.exports = {
