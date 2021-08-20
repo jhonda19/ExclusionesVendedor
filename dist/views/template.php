@@ -15,7 +15,7 @@
     <meta http-equiv="Pragma" content="no-cache">
 
     <link rel="icon" type="image/png" href="./public/img/one.png">
-    <title>WFM</title>
+    <title>Exclusiones Vendedor</title>
     <link href="'../../css/app.css" rel="stylesheet" type="text/css">
     <link href="./js/plugins/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 

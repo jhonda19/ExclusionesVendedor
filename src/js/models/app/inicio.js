@@ -13,15 +13,13 @@ export class inicioApp {
 
     async welcomeInfo() {
         const html1 = ` <div class="card-header">
-                           Información Roster
+                           Información
                         </div>
                         <div class="card-body">
                         <ul class="ml-4">
-                            <li>No modifique la estructura de las plantillas de Excel.</li>
-                            <li>Actualice las consultas de las plantillas de Excel antes de utilizarlas.</li>
-                            <li>Consulte el roster actual antes de efectuar cambios..</li>
-                            <li>Antes de carga información, verifique que los datos sean consistentes.</li>
-                            
+                            <li>Todas las actividades registradas en la aplicación estan siendo almacendas.</li>
+                            <li>La administración del flujo de conocimiento esta acargo de los TL's</li>
+                                                     
                         </ul>
                         </div>`
         el.welcomeInfo1.innerHTML = html1;

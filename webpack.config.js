@@ -2,9 +2,6 @@ const path = require('path');
 const entryPoints = {
   custom: './src/js/index.js',
   roster: './src/js/roster.js',
-  payroll: './src/js/payroll.js',
-  uga: './src/js/uga.js',
-  mallas: './src/js/mallas.js',
 } 
 
 module.exports = {

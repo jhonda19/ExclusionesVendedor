@@ -168,7 +168,7 @@ body {
   line-height: 1.5;
   color: #343a40;
   text-align: left;
-  background-color: #1D2B36;
+  background-color: #1D2B36; /*default OL: 1D2B36  mercado libre azul y amarillo: #2d3277  #ffe600*/  
   padding-right: 0 !important;
 }
 
@@ -10912,7 +10912,7 @@ a:focus {
 }
 
 .bg-login-image {
-  background: url("http://10.208.254.8/wfm/dist/public/img/photo-1518020382113-a7e8fc38eac9.jpg");
+  background: url("http://localhost/ExclusionesVendedor/dist/public/img/login.png");
   background-position: center;
   background-size: cover;
 }

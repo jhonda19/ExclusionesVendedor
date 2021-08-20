@@ -26,8 +26,8 @@
     <hr class="sidebar-divider">
     <li class="nav-item">
       <a class="nav-link" href="#" data-toggle="collapse" data-target="#collapseRosterAdmin" aria-expanded="true" aria-controls="collapseRosterAdmin">
-        <i class="fas fa-fw fa-users"></i>
-        <span>Roster</span>
+        <i class="fas fa-fw fa-share-alt"></i>
+        <span>Guía Informativa</span>
       </a>
       <div id="collapseRosterAdmin" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
         <div class="bg-white py-2 collapse-inner rounded" id="viewsRoster">
@@ -35,17 +35,7 @@
         </div>
       </div>
     </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#" data-toggle="collapse" data-target="#collapsePayroll" aria-expanded="true" aria-controls="collapsePayroll">
-        <i class="fas fa-fw fa-gem"></i>
-        <span>Payroll</span>
-      </a>
-      <div id="collapsePayroll" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-        <div class="bg-white py-2 collapse-inner rounded" id="viewsPayroll">
-
-        </div>
-      </div>
-    </li>
+    
 
     <hr class="sidebar-divider d-none d-md-block">
     <div class="text-center d-none d-md-inline">

@@ -5,7 +5,7 @@
     <div class="col-xl-4 col-lg-12 col-md-9">
 
       <div class="card o-hidden border-0 shadow-lg my-5">
-        <div class="card-body p-0">
+        <div class="card-body p-12">
           <!-- Nested Row within Card Body -->
           <div class="row">
             <!-- <div class="col-lg-6 d-none d-lg-block bg-login-image"></div> -->
@@ -15,7 +15,7 @@
                   <div class="col-sm-12 d-none d-sm-block">
                     <img src="./public/img/onelink300px.png" class="mt-n4">
                   </div>
-                  <h1 class="h4 text-muted mb-4 font-weight-bold">Iniciar Sesión en WFM</h1>
+                  <h1 class="h4 text-muted mb-4 font-weight-bold">Iniciar Sesión En Exclusiones Vendedor</h1>
                 </div>
                 <form class="user" id="loginForm">
                   <div class="form-group">

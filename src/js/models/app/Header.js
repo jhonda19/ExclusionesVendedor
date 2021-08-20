@@ -166,43 +166,26 @@ export function elementsMain() {
   const el = {
     viewsAdmin: document.querySelector('#viewsAdmin'),
     viewsRoster: document.querySelector('#viewsRoster'),
-    viewsPayroll: document.querySelector('#viewsPayroll'),
-    viewsUGA: document.querySelector('#viewsUGA'),
   }
 
   async function main() {
     const linksAdmin = (`${await find('usuarioApp', 'Usuario App')}
                         <hr class="divider">
-                        ${await find('ugaRegistrarNovedad', 'Novedades UGA')}
-                        ${await find('turnoProgramado', 'Turno Programado')}
+                        ${await find('cargueGuiaInformativa', 'Cargue de Datos')}
                         `
                       );
 
-    const linksRoster = (`${await find('dashboardRoster', 'Dashboard')}
-                        ${await find('configRoster', 'Configuración')}
-                        ${await find('sociodemografico', 'Sociodemográfico')}
-                        <hr class="divider">
-                        ${await find('empleados', 'Empleado')}
-                        ${await find('usuarios', 'Usuarios')}
-                        ${await find('rosterNomina', 'Nómina')}
-                        <hr class="divider">
-                        ${await find('reportes', 'Reportes')}
-                        ${await find('buscar', 'Buscar Empleado')}`);
+    const linksRoster = (`${await find('vendedor', 'Vendedor')}
+                        `);
 
-
-    const linksPayroll = (`${await find('dashboardPayroll', 'Dashboard')}
-                        ${await find('configPayroll', 'Configuración')}
-                        <hr class="divider">
-                        ${await find('consultarConexion', 'Consultar Conexión')}
-                        ${await find('gestionarAjuste', 'Gestionar Ajuste')}`);
-
+    // <hr class="divider">
     // const linksUGA = (`${await find('ugaRegistrarNovedad', 'Novedades UGA')}`
     // );
 
     el.viewsAdmin.innerHTML = linksAdmin;
     el.viewsRoster.innerHTML = linksRoster;
-    el.viewsPayroll.innerHTML = linksPayroll;
-    // el.viewsUGA.innerHTML = linksUGA;
+
+  
   }
   main();
 }
