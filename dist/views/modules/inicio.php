@@ -1,6 +1,6 @@
 <div class="card shadow mb-4 border-left-warning">
     <a href="#collapseCardExample" class="d-block card-header py-3 collapsed" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseCardExample">
-        <h2 class="m-0 text-dark">&nbsp;Bienvenid@ a Exclusiones Vendedor</h2>
+        <h2 class="m-0 text-dark">&nbsp;Bienvenid@ a Guía Informativa Meli</h2>
     </a>
     <div class="collapse show" id="collapseCardExample">
         <div class="card-body">
