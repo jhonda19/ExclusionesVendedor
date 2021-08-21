@@ -7,7 +7,7 @@
             <form id="formUpLoad" class="form-group mt-3">
                 <div class="row">
                     <div class="col-12">
-                        <select class="form-control" aria-label="Default select example">
+                        <select class="form-control" aria-label="Default select example" id='flujo1'>
                             <option selected>Open this select menu</option>
                             <option value="1">One</option>
                             <option value="2">Two</option>
