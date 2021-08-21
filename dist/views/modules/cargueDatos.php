@@ -1,15 +1,15 @@
 <div class="card shadow mb-4 border-left-warning">
     <a href="#collapseCardRsoterSociodemo" class="d-block card-header py-3" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="collapseCardRsoterSociodemo">
-        <h2 class="m-0 text-dark">&nbsp;Turno Programado</h2>
+        <h2 class="m-0 text-dark">&nbsp;Cargue de Datos</h2>
     </a>
     <div class="collapse show" id="collapseCardRsoterSociodemo">
         <div class="card-body">
-            <form id="formTurnoProgramado" class="form-group mt-3">
+            <form id="formUpLoad" class="form-group mt-3">
                 <div class="row">
                     <div class="col-12">
                         <p class="text-left mt-2"><i class="fas fa-info-circle text-dark"></i>&nbsp;
                             <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-                            Máximo 5.000 registros
+                            Máximo 2.000 registros
                         </p>
                         <p class="text-left mt-2"><i class="fas fa-info-circle text-dark"></i>&nbsp;
                             <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
@@ -21,16 +21,16 @@
                         </p> -->
                         <p class="text-left mt-2"><i class="fas fa-info-circle text-dark"></i>&nbsp;
                             <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-                            El archivo a subir debe tener el nombre&nbsp;PlantillaCargueMallas&nbsp;y debe ser en formato .xlsx&nbsp; |&nbsp;
-                            <a target="_blank" href="http://10.208.254.8/wfm/dist/public/files/PlantillaCargueMallas.xlsx" style="color:#2980b9"><b>Descargar Formato</b></a>
+                            El archivo a subir debe tener el nombre&nbsp;PlantillaCargue_GuiaInfo&nbsp;y debe ser en formato .xlsx&nbsp; |&nbsp;
+                            <a target="_blank" href="http://localhost/GuiaInformativaMeli/dist/public/files/PlantillaCargue_GuiaInfo.xlsx" style="color:#2980b9"><b>Descargar Formato</b></a>
                         </p>
                         <div class="row">
                             <div class="custom-file col-sm-6 mt-3">
-                                <input class="custom-file-input" type="file" id="XlsTurnoProgramado" lang="es" required>
-                                <label for="XlsTurnoProgramado" class="custom-file-label">Seleccionar Excel...</label>
+                                <input class="custom-file-input" type="file" id="XlsGuiaInformativa" lang="es" required>
+                                <label for="XlsGuiaInformativa" class="custom-file-label">Seleccionar Excel...</label>
                             </div>
                             <div class="col-sm-3 mt-3">
-                                <button id="btnXlsTurnoProgramado" class="btn btn-primary btn-sm btn-block" type="button" data-toggle="modal" data-target="" disabled>
+                                <button id="btnXlsGuiaInformativa" class="btn btn-primary btn-sm btn-block" type="button" data-toggle="modal" data-target="" disabled>
                                     <i class="fas fa-cloud-upload-alt"></i>
                                 </button>
                                 <div id="progreso" class="mt-1" style="height: 15px;">
@@ -47,41 +47,5 @@
         </div>
     </div>
 </div>
-
-<!-- Large modal -->
-<div class="modal fade bd-example-modal-sm" id="modalResCargueMalla" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-sm">
-        <div class="modal-content">
-            <div class="modal-header bg-primary text-white">
-                <h2 class="modal-title" id="modalResCargueMallaLabel">Resultados Validación</h2>
-                <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true" class="text-white h3 font-weight-bold">x</span>
-                </button> -->
-            </div>
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="text-justify">
-                            <h6 class="mb-4"><i class="fas fa-info-circle text-dark"></i> Cuando este todo listo, has clic en continuar.</h6>
-                        </div>
-                        <!-- Button trigger modal -->
-                        <div id="datosResMed" class="col-sm-12">
-                            <table id="tblResMallasVali" class="table table-sm table-hover mt-1">
-                                <thead class="bg-light text-dark">
-                                </thead>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 text-right">
-                    <button id="btnCloseModal" type="button" class="btn btn-danger mt-5"><i class="fas fa-undo-alt"></i> Cancelar</button>
-                    <button id="btnSaveManage" type="button" class="btn btn-primary mt-5"><i class="fas fa-save"></i> Continuar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
 
 <script src="js/upload.bundle.js"></script>

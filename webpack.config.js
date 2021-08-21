@@ -2,6 +2,7 @@ const path = require('path');
 const entryPoints = {
   custom: './src/js/index.js',
   upload: './src/js/upload.js',
+  vendedor: './src/js/vendedor.js',
 } 
 
 module.exports = {
